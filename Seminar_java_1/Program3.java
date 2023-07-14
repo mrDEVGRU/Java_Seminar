@@ -6,7 +6,7 @@ public class Program3 {
     // 3) Реализовать простой калькулятор
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Input ops: ");
+        System.out.print("Input ops (+, -, *, /): ");
         String s = sc.nextLine();
         System.out.print("Input number: ");
         int number1 = sc.nextInt();
